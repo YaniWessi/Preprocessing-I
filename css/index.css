@@ -1,1 +1,232 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 2;
+  background-color: white;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+img {
+  width: 30%;
+  height: 50;
+  padding: 20px;
+  margin: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.bio-img {
+  background: #c6dee7;
+}
+.bio-img .bio-img h1 {
+  margin-bottom: 7px;
+  margin-top: -45px;
+  margin-left: 50px;
+  padding: 0px;
+}
+.bio-img .bio-img h2 {
+  margin-left: 50px;
+  font-size: 25px;
+  margin-top: -45;
+}
+.bio-img .bio-img h2 {
+  margin-left: 50px;
+  font-size: 25px;
+  margin-top: -45;
+}
+.bio-img .bio-img p {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.bio-img .bio-img button {
+  margin-left: 50px;
+  margin-bottom: 60px;
+  border: none;
+  background-color: gray;
+  font-size: 20px;
+}
+h1 {
+  font-size: 60px;
+  border: 1px solid black;
+  padding-bottom: 50px;
+  border-bottom: 0px;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.table table tr {
+  border-bottom: 2px solid black;
+}
+.table table .yrs {
+  width: 2%;
+  text-align: left;
+}
+.table table .company {
+  width: 15%;
+  text-align: left;
+}
+.table table .title {
+  width: 15%;
+  text-align: left;
+}
+.table table .tech {
+  width: 20%;
+  text-align: left;
+}
+.table table .second-row {
+  background: lightgray;
+}
+.table table .third-row {
+  background: darkgray;
+}
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-content .stuff {
+  width: 40%;
+}
+.main-content .stuff p {
+  border: 1px solid black;
+}
+.main-content .listen {
+  width: 40%;
+}
+footer {
+  text-align: center;
+  background: darkgray;
+  margin: 25px 0px;
+}
